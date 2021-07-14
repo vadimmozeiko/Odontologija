@@ -1,0 +1,40 @@
+.advice {
+  margin-top: 450px;
+  .section-number {
+    &::after {
+      bottom: 0;
+      left: 7%;
+    }
+  }
+  .section-title {
+    color: $primary_title;
+  }
+
+  .advice-boxes {
+    margin-top: 450px;
+    display: flex;
+    gap: 500px;
+
+    .lift-up {
+        transform: translateY(-150%);
+    }
+    .advice-box {
+      position: relative;
+      width: 480px;
+      background-color: $text_light;
+      padding: 20px 10px;
+      border-radius: 45px;
+
+      .box-image {
+        position: absolute;
+        bottom: 98%;
+        right: 5%;
+
+        img {
+          width: 350px;
+          z-index: -1;
+        }
+      }
+    }
+  }
+}

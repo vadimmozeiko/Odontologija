@@ -10,59 +10,44 @@
   .hero-title {
     padding: 120px 0;
   }
-
   .hero-text {
-      width: 1020px;
-      float: right;
+    width: 1020px;
+    float: right;
 
-      p {
-          margin-bottom: 20px;
-      }
+    p {
+      margin-bottom: 20px;
+    }
   }
 
   .section-number {
-      position: absolute;
-      right: 10%;
-      bottom: 10%;
-
-      &::after {
-        content: '';
-        position: absolute;
-        width: 80px;
-        height: 15px;
-        bottom: 0;
-        right: 7%;
-        background-color: $text_light;
-      }
+    right: 10%;
+    bottom: 10%;
   }
 
   .hero-images {
-      .lift-up {
-          transform: translateY(-35%);
-        }
-
-    .boxes {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin-top: 100px;
+    .lift-up {
+      transform: translateY(-35%);
     }
 
+    .boxes {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      margin-top: 100px;
+    }
 
     .box {
-        &:hover .subtitle-text{
-            color: $primary_title;
-        }
-        .subtitle {
-            width: 400px;
-        }
-        .subtitle-text {
-            color: $subtitle_light;
-        }
-
+      &:hover .subtitle-text {
+        color: $primary_title;
+      }
+      .subtitle {
+        width: 400px;
+      }
+      .subtitle-text {
+        color: $subtitle_light;
+      }
 
       .image-box {
-          
         .image {
           position: relative;
           border-radius: 40px;
@@ -72,15 +57,15 @@
           cursor: pointer;
 
           :last-child {
-              display: none;
+            display: none;
           }
 
           &:hover img:last-child {
-              display: block;
+            display: block;
           }
           &:hover img:first-child {
             display: none;
-        }
+          }
 
           img {
             position: absolute;
