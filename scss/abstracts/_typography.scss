@@ -6,6 +6,10 @@
     font-family: 'Montserrat_Bold', sans-serif;
 }
 
+.text-white {
+    color: $text_light;
+}
+
 .text-black {
     font-family: 'Montserrat_Black', sans-serif;
 }
@@ -13,3 +17,19 @@
 .text-regular {
     font-family: 'Montserrat_Regular', sans-serif;
 }
+
+.text-bold-64 {
+    font-family: 'Montserrat_Bold', sans-serif;
+    font-size: 74px;
+}
+
+.text-bold-74 {
+    font-family: 'Montserrat_Bold', sans-serif;
+    font-size: 74px;
+}
+
+.text-black-92 {
+    font-family: 'Montserrat_Black', sans-serif;
+    font-size: 92px;
+}
+

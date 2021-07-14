@@ -1,7 +1,7 @@
 // abstract
+@import "abstracts/colors";
 @import "abstracts/typography";
 @import "abstracts/fonts";
-@import "abstracts/colors";
 @import "abstracts/variables";
 
 // base
@@ -10,11 +10,11 @@
 
 // layout
 @import "layouts/layout";
+@import "layouts/header";
 @import "layouts/hero";
 @import "layouts/advice";
 @import "layouts/contact";
 
 // components 
 @import "components/button";
-@import "components/circle";
 
